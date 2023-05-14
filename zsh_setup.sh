@@ -17,4 +17,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh
 
 git clone https://gitlab.viarezo.fr/ViaRezo/oh-my-viarezo.git ~/.config/zsh/zsh_theme/oh-my-viarezo
 
+rm ~/.zshrc
+
 ln -s ~/.config/zsh/zsh-config/.zshrc ~/.zshrc
