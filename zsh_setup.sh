@@ -21,4 +21,4 @@ sed -i "s/OHMYVIAREZO_VCS_COLOR_STAGE/OHMYVIAREZO_VCS_COLOR_STAGED/g" ~/.config/
 
 rm ~/.zshrc
 
-ln -s ~/.config/zsh/zsh-config/.zshrc ~/.zshrc
+ln -s ~/.config/zsh/zsh-config/.zshenv ~/.zshenv
