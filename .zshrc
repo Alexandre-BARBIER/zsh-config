@@ -1,5 +1,5 @@
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.zsh_history
+HISTFILE=~/.config/zsh/zsh-config/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 # End of lines configured by zsh-newuser-install
@@ -24,6 +24,7 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B"  down-line-or-beginning-search # Down
 
+bindkey '^R' history-incremental-search-backward
 
 # End of lines added by compinstall
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
