@@ -17,8 +17,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh
 
 git clone https://gitlab.viarezo.fr/ViaRezo/oh-my-viarezo.git ~/.config/zsh/zsh_theme/oh-my-viarezo
 
-sed -i "s/OHMYVIAREZO_VCS_COLOR_STAGE/OHMYVIAREZO_VCS_COLOR_STAGED/g" ~/.config/zsh/zsh_theme/oh-my-viarezo/viarezo.zsh-theme
-
 rm ~/.zshrc
 
 ln -s ~/.config/zsh/zsh-config/.zshenv ~/.zshenv
