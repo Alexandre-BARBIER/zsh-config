@@ -2,7 +2,7 @@
 export XDG_DATA_HOME=${XDS_DATA_HOME:="$HOME/.local/share"}
 export XDG_CACHE_HOME=${XDS_CACHE_HOME:="$HOME/.cache"}
 export XDG_CONFIG_HOME=${XDS_CONFIG_HOME:="$HOME/.config"}
-
+alias random="echo 'coucou'"
 alias upgrade="sudo dnf upgrade -y && flatpak update"
 alias update="sudo dnf upgrade -y && flatpak update"
 
