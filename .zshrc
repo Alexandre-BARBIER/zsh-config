@@ -47,5 +47,6 @@ ZSH_HIGHLIGHT_STYLES[command]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=magenta'
 ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=magenta'
 ZSH_HIGHLIGHT_STYLES[function]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[arg0]='fg=blue'
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
